@@ -89,3 +89,17 @@ en 1990 se estandarizó gracias al ANSI C
 ```
 $ ./[ejecutable]
 ```
+### Tipos de errores en C
+* sintácticos
+* Errores de enlace
+* De ejecución
+* Semánticos
+### tipos de datos
+existen ciertos identificadores que se encargan de indentificar una variable, es decir que tipo de dato tienen.
+no se pueden usar palabras reservadas para nombrar variables, tampoco numero ni caracteres especiales.
+* char para caracteres como las letras
+* int para caracteres numericos
+* float para numeros decimales
+* double para numero real de precision doble
+### Variables en C
+se les define un nombre para poder recuperar un valor y un tipo para restringir los valores que puede alamacenar 
