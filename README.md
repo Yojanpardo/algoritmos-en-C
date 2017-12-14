@@ -102,4 +102,37 @@ no se pueden usar palabras reservadas para nombrar variables, tampoco numero ni 
 * float para numeros decimales
 * double para numero real de precision doble
 ### Variables en C
-se les define un nombre para poder recuperar un valor y un tipo para restringir los valores que puede alamacenar 
+se les define un nombre para poder recuperar un valor y un tipo para restringir los valores que puede alamacenar
+## operadores
+* operadores de asignación
+* operadores aritmeticos
+* operadores relacionales
+* operadores lógicos
+
+| simbolo | nombre |
+|---------|--------|
+| = | Asignacion |
+| += | Suma y asignación |
+| -= | Resta y asignación |
+| *= | Multiplicación y asignación |
+| /= | División y asignación |
+| + | Suma |
+| - | Resta |
+| * | multiplicación |
+| / | división |
+| % | Módulo |
+
+| Operadores | Relacionales |
+|------------------------|
+| < | Menor que |
+| > | Mayor que |
+| <= | Menor igual que |
+| >= | Mayor igual que |
+| == | igual que |
+| != | diferente de |
+
+|operadores logicos|
+|-------|------------|
+|&&| conjuncion |
+| las pipas | Disyunción |
+| ! | negacion| 
