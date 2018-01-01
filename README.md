@@ -135,4 +135,24 @@ se les define un nombre para poder recuperar un valor y un tipo para restringir 
 |-------|------------|
 |&&| conjuncion |
 | las pipas | Disyunción |
-| ! | negacion| 
+| ! | negacion|
+
+## Entrada y salida de datos
+la salida de los datos por lo general va a ser visualizada por la pantalla y tambien puede ser redireccionada, es decir utilizada mas adelante para otras operaciones.
+###codigo de formato
+|%c|muestra un caracter|
+|---------|------------|
+|%d| muestra un numero entero|
+|%x|muestra un numero entero exadecimal|
+|%f|muestra un numero real|
+|%X.Yf| muestra un numero real con X cifras enteras e Y cifras decimales|
+|%s|Muestra una cadena de caracteres|
+
+para escanear datos con el formato estandar utilizamos el siguiente codigo
+``` c
+#include <stdio.h>
+void main(){
+  [tipo de variable] [variable];
+  scanf("[codigo de formato]", &[variable]);
+}
+```
