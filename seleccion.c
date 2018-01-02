@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
   int a, b;
   printf("este programa funciona para decir si un numero es mayor que otro.\n");
   printf("ingresa el primer numero:\n");

@@ -170,3 +170,6 @@ if(a<b){
 }
 ```
 y esta es basicamente la estructura de un if else.
+
+#### Switch
+es una herramienta de mala practica pero funciona para ciertos casos especificos, basicamente es un seleccionador.
