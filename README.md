@@ -156,3 +156,17 @@ void main(){
   scanf("[codigo de formato]", &[variable]);
 }
 ```
+## Estructuras Secuenciales if else
+para verificar o generar una condicion utilizamos la palabra reservada "if"
+```c
+#include <stdio.h>
+
+int a=1,b=2;
+
+if(a<b){
+  printf("efectivamente b es mayor que a");
+}else{
+  printf("efectivamente a es mayor que b");
+}
+```
+y esta es basicamente la estructura de un if else.
